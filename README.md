@@ -24,3 +24,8 @@ gen dgovcons = D.govcons
 ```
 gen Linflation     = L.inflation
 ```
+dropping problematic countries
+```Stata
+drop if country_id == 17
+drop if countrycode == "SLV"
+```
