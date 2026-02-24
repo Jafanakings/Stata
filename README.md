@@ -1,6 +1,6 @@
 # Stata thesis data analysis 
 
-Research questions......
+## Research questions
 1. Within an extended expectations-augmented Phillips curve framework, do tariffs ("trade protection") exert a significant influence on inflation dynamics in developing countries?
 (This version sharpens the terminology and explicitly names "tariffs" as the measure of protection.)
 
@@ -10,11 +10,11 @@ Research questions......
 3. Is the relationship between tariffs and inflation mediated by the exchange rate?
 (This is a classic, clear mediation hypothesis that your analysis directly tests.)
 
-``encode country, gen(country_id)``
-``xtset country_id year``
+```encode country, gen(country_id)
+xtset country_id year```
 
-//transformation//
-``gen du_gap = D.u_gap``
-``gen dgovcons = D.govcons``
+-transformation
+```gen du_gap = D.u_gap
+gen dgovcons = D.govcons```
 * LAGS
 ``gen Linflation     = L.inflation``
