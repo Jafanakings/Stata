@@ -10,11 +10,11 @@ Research questions......
 3. Is the relationship between tariffs and inflation mediated by the exchange rate?
 (This is a classic, clear mediation hypothesis that your analysis directly tests.)
 
-``encode country, gen(country_id)
-xtset country_id year``
+``encode country, gen(country_id)``
+``xtset country_id year``
 
 //transformation//
-``gen du_gap = D.u_gap
-gen dgovcons = D.govcons``
+``gen du_gap = D.u_gap``
+``gen dgovcons = D.govcons``
 * LAGS
 ``gen Linflation     = L.inflation``
