@@ -21,7 +21,7 @@ gen du_gap = D.u_gap
 gen dgovcons = D.govcons
 ```
 * LAGS
-```
+```Stata
 gen Linflation     = L.inflation
 ```
 dropping problematic countries
