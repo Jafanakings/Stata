@@ -16,7 +16,11 @@ xtset country_id year
 ```
 
 -transformation
-```gen du_gap = D.u_gap
-gen dgovcons = D.govcons```
+```Stata
+gen du_gap = D.u_gap
+gen dgovcons = D.govcons
+```
 * LAGS
-``gen Linflation     = L.inflation``
+```
+gen Linflation     = L.inflation
+```
